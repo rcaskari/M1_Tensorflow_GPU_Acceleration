@@ -1,0 +1,7 @@
+name: tf_sensor_gpu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - tensorflow-deps
+  - jupyter
