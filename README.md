@@ -4,11 +4,13 @@ Local Conda setup instructions to utilize m1 chip GPU w/ tensorflow library
 The goal of this project is to provide a skeleton for Mac M1 users to run tensorflow code locally. The need for this arose from the revelation that current tensorflow training materials only outline indstructions for NVIDIA GPUs and recommend purchasing compute time on their infra where applicable rather than having detailed outlines for Mac OS X users. 
 
 This environment template is built using:
+
 Prerequisites: 
+
 [miniforge3 conda distribution](https://github.com/conda-forge/miniforge) 
 
 Dependencies:
-[tensorflow-macos](https://pypi.org/project/tensorflow-macos/)
+[tensorflow-macos](https://pypi.org/project/tensorflow-macos/),
 [tensorflow-metal](https://developer.apple.com/metal/tensorflow-plugin/)
 
 
